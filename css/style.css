@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* --common parts--*/
+
+
+#site-box {
+          width : 1080px;
+
+}
+
+body{
+	width : 1080px;
+	margin-right: auto;
+	margin-left : auto;
+	background-color: #f8f8f8;
+	/*background-image : url(../images/backhome2.jpeg);*/
+}
+
+.genecontainer li {
+margin-bottom: 24px;
+}
+
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #eeeeee;
+	min-height: 70vh;
+}
+
+
+.item{
+	/*background: #0bd;*/
+	/*color: #ffff;*/
+	height: 300px;
+	width: 210px;
+	text-align: center;
+}
+
+
+.genecontainer{
+	justify-content: space-around;
+	align-items: center;
+	background-color: #eeeeee;
+	min-height: 50vh;
+}
+
+
+.descrcon{
+	/*background: #0bd;*/
+	/*background-color: rgb(100, 144, 55);*/
+	width: 1000px;
+	padding-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-left: 30px: 
+	text-align: left;
+	font-size: 17px;
+}
+
+/*.descrcon img{
+    border-radius: 50%;  
+    width:  200px;      
+    height: 200px;       
+}*/
+
+.float_l {
+	margin-top: 30px;
+	margin-right: 60px;
+	float: left;
+}
+
+
+.trim-image-to-circle {
+    background-image: url("summerriver.jpg");  /* 表示する画像 */
+    width:  170px;       /* ※縦横を同値に */
+    height: 170px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: left top;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+}
+
+
+#pageHead #siteTitle {
+	padding: 30px 0px 20px 0px;
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: center;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+#pageHead .globalNavi {
+	border: solid #CCCCCC;
+	border-width: 2px 0;
+	padding: 2px, 0px, 2px;
+	background-color: #000000;
+	width: 1080px;
+}
+
+#pageHead .globalNavi ul {
+	margin: 0;
+	padding: 2px, 0px, 2px, 0px;
+}
+#pageHead .globalNavi ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#pageHead .globalNavi ul li {
+	list-style: none;
+	width: 173px;
+	float: left;
+	border-left: solid 1px #CCCCCC;
+	padding: 3px, 0px, 3px, 0px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.4;
+	color: rgb(255,242,0);
+}
+
+
+#pageHead .globalNavi ul li:first-child {
+	border-left: none;
+}
+
+#pageHead .globalNavi ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0;
+}
+
+#pageHead .globalNavi ul li a:hover {
+	color: rgb(255,242,0);
+}
+
+
+
+
+
+#pageHead .globalNavija {
+	border: solid #CCCCCC;
+	border-width: 2px 0;
+	padding: 2px, 0px, 2px;
+	background-color: #000000;
+	width: 1080px;
+}
+
+#pageHead .globalNavija ul {
+	margin: 0;
+	padding: 2px, 0px, 2px, 0px;
+}
+#pageHead .globalNavija ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#pageHead .globalNavija ul li {
+	list-style: none;
+	width: 145px;
+	float: left;
+	border-left: solid 1px #CCCCCC;
+	padding: 3px, 0px, 3px, 0px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.4;
+	color: rgb(255,242,0);
+}
+
+
+#pageHead .globalNavija ul li:first-child {
+	border-left: none;
+}
+
+#pageHead .globalNavija ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0;
+}
+
+#pageHead .globalNavija ul li a:hover {
+	color: rgb(255,242,0);
+}
+
+
+
+/*#topPageicon {
+	padding: 150px 0px 0px 0px;
+	text-align: center;
+}*/
+
+
+
+
+
+#topPagediv ul li {
+	position: relative;
+}
+
+
+
+/*div{
+	background-color: rgb(240, 255, 255);
+	min-height: 70vh
+}*/
+
+#pageFoot {
+	margin-top: 20px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	border-top: solid 1px #CCCCCC;
+	font-size: 18px;
+	padding: 0px 0px 2px 0px;
+}
+
+#pageFoot #copyright {
+	line-height: 1;
+}
