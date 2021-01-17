@@ -26,14 +26,14 @@ margin-bottom: 24px;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #eeeeee;
-	min-height: 45vh;
+	min-height: 50vh;
 }
 
 
 .item{
 	/*background: #0bd;*/
 	/*color: #ffff;*/
-	height: 180px;
+	height: 100px;
 	width: 210px;
 	text-align: center;
 }
