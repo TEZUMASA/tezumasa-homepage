@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/index.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/about_me_eg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/publications_eg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/links_eg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/contact_eg.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/index_ja.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/contact_ja.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/publications_ja.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/about_me_ja.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/archives_ja.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+<url>
+  <loc>https://tezumasa.github.io/tezumasa-homepage/links_ja.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2021-01-17T10:40:35+09:00</lastmod>
+</url>
+
+</urlset>
