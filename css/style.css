@@ -1,65 +1,51 @@
 @charset "UTF-8";
 
-/* --common parts--*/
-
-
-#site-box {
-          width : 1080px;
-
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
 }
-
 body{
-	width : 1080px;
-	margin-right: auto;
-	margin-left : auto;
-	background-color: #f8f8f8;
-	/*background-image : url(../images/backhome2.jpeg);*/
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    background-color: #f8f8f8;
+    font-size: 1.2rem;
 }
 
-.genecontainer li {
-margin-bottom: 24px;
+a {
+    text-decoration: none;
 }
 
-
-.container{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #eeeeee;
-	min-height: 50vh;
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
 }
 
-
-.item{
-	/*background: #0bd;*/
-	/*color: #ffff;*/
-	height: 100px;
-	width: 210px;
-	text-align: center;
+/* 大きな背景画像 */
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
-
-.genecontainer{
-	justify-content: space-around;
-	align-items: center;
-	background-color: #eeeeee;
-	min-height: 30vh;
+/* 見出し */
+.page-title {
+    font-size: 4.5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
-
-.descrcon{
-	/*background: #0bd;*/
-	/*background-color: rgb(100, 144, 55);*/
-	width: 1000px;
-	padding-top: 50px;
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-left: 30px: 
-	text-align: left;
-	font-size: 17px;
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
 }
 
-.btn {
+/* ボタン */
+.btn{
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -68,185 +54,147 @@ margin-bottom: 24px;
   color: #fff;/*文字色*/
   font-weight: bold;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
-  min-width: 120pt;
 }
-
-/*.btn {
-	font-size: 18px;
-	background: #003366;
-	color: #fff;
-	padding: 13px 32px;
-	border-radius: 8px;
-	min-width: 300px
-}
-*/
 
 .btn:hover{
-	background: #0090aa;
+    background: #0090aa;
 }
 
 
-/*.descrcon img{
-    border-radius: 50%;  
-    width:  200px;      
-    height: 200px;       
-}*/
+/* HEADER
+------------------------------- */
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: red;
+}
+
+/* HOME
+------------------------------- */
+#home {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.4rem;
+    margin: 60px 0 42px;
+}
+
+.home-desc {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-desc p {
+    font-size: 1.4rem;
+    margin: 60px 0 42px;
+}
+
+
+/* Tops
+------------------------------- */
+#tops {
+    height: 70px;
+    margin-bottom: 40px;
+    text-align: center;    
+}
+#tops .page-title {
+    text-align: center;
+}
+
+
+.genecontainer{
+    justify-content: center;
+    align-items: left;
+    min-height: 50vh;
+}
+
+.genecontainer li {
+margin-bottom: 1.8rem;
+
+}
+
+.descrcon{
+    padding-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 30px: 
+    font-size: 1.4rem;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
 
 .float_l {
-	margin-top: 30px;
-	margin-right: 60px;
-	float: left;
+    margin-top: 30px;
+    float: left;
 }
 
 
 
-.trim-image-to-circle {
-    background-image: url("summerriver.jpg");  /* 表示する画像 */
-    width:  170px;       /* ※縦横を同値に */
-    height: 170px;       /* ※縦横を同値に */
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    background-position: left top;  /* 横長画像の左上を基準に表示 */
-    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+/* フッター
+------------------------------- */
+footer {
+    background: black;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 1.2rem;
 }
 
+/* モバイル版
+------------------------------- */
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: left;
+    }
 
-#pageHead #siteTitle {
-	padding: 30px 0px 20px 0px;
-	font-size: 30px;
-	line-height: 1.2;
-	text-align: center;
-	font-family: 'Sawarabi Mincho', sans-serif;
-}
+    /* HEADER */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
 
-
-#pageHead .globalNavi {
-	border: solid #CCCCCC;
-	border-width: 2px 0;
-	padding: 2px, 0px, 2px;
-	background-color: #000000;
-	width: 1080px;
-}
-
-#pageHead .globalNavi ul {
-	margin: 0;
-	padding: 2px, 0px, 2px, 0px;
-}
-#pageHead .globalNavi ul:after {
-	content: "";
-	clear: both;
-	display: block;
-}
-#pageHead .globalNavi ul li {
-	list-style: none;
-	width: 173px;
-	float: left;
-	border-left: solid 1px #CCCCCC;
-	padding: 3px, 0px, 3px, 0px;
-	box-sizing: border-box;
-	text-align: center;
-	font-size: 20px;
-	line-height: 1.4;
-	color: rgb(255,242,0);
-}
-
-
-#pageHead .globalNavi ul li:first-child {
-	border-left: none;
-}
-
-#pageHead .globalNavi ul li a {
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-	padding: 5px 0;
-}
-
-#pageHead .globalNavi ul li a:hover {
-	color: rgb(255,242,0);
-}
+    /* HOME */
+    .home-content {
+        margin-top: 20%;
+    }
 
 
 
-
-
-#pageHead .globalNavija {
-	border: solid #CCCCCC;
-	border-width: 2px 0;
-	padding: 2px, 0px, 2px;
-	background-color: #000000;
-	width: 1080px;
-}
-
-#pageHead .globalNavija ul {
-	margin: 0;
-	padding: 2px, 0px, 2px, 0px;
-}
-#pageHead .globalNavija ul:after {
-	content: "";
-	clear: both;
-	display: block;
-}
-#pageHead .globalNavija ul li {
-	list-style: none;
-	width: 145px;
-	float: left;
-	border-left: solid 1px #CCCCCC;
-	padding: 3px, 0px, 3px, 0px;
-	box-sizing: border-box;
-	text-align: center;
-	font-size: 20px;
-	line-height: 1.4;
-	color: rgb(255,242,0);
-}
-
-
-#pageHead .globalNavija ul li:first-child {
-	border-left: none;
-}
-
-#pageHead .globalNavija ul li a {
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-	padding: 5px 0;
-}
-
-#pageHead .globalNavija ul li a:hover {
-	color: rgb(255,242,0);
-}
-
-
-
-/*#topPageicon {
-	padding: 150px 0px 0px 0px;
-	text-align: center;
-}*/
-
-
-
-
-
-#topPagediv ul li {
-	position: relative;
-}
-
-
-
-/*div{
-	background-color: rgb(240, 255, 255);
-	min-height: 70vh
-}*/
-
-#pageFoot {
-	margin-top: 20px;
-	background-color: #000000;
-	color: #ffffff;
-	text-align: center;
-	border-top: solid 1px #CCCCCC;
-	font-size: 18px;
-	padding: 0px 0px 2px 0px;
-}
-
-#pageFoot #copyright {
-	line-height: 1;
-}
