@@ -10,7 +10,7 @@
         <link href="css/style.css" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7NJFZJHJL"></script>
-
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
 
     </head>
 
@@ -31,12 +31,27 @@
 
             <div class="home-content wrapper">
                 <h2 class="page-title">MASAYUKI TEZUKA's Homepage</h2>
+                <p id='greeting'></p>
                 <p>手塚 真徹(Masayuki Tezuka)のホームページにようこそ.</p>
             </div>
         </div>
         <footer id="pageFoot">
             <p id="copyright"> &copy; 2020 MASAYUKI TEZUKA</p>
         </footer>
+    <script>
+        'use strict';
+        const now = new Date();
+        const hour = now.getHours();
+        if(hour >= 17 || hour < 5) {
+            document.getElementById('greeting').textContent = 'こんばんは！';
+        }
+        else if (hour >= 5 || hour  <12){
+            document.getElementById('greeting').textContent = 'おはようございます！';
+        }
+        else{
+            document.getElementById('greeting').textContent = 'こんにちは！';
+        }
+    </script>
     </body>
 </html>
 
