@@ -119,6 +119,23 @@ nav{
 }
 
 
+/* アコーディオン
+------------------------------- */
+summary {
+  cursor: pointer;
+}
+details {
+  margin: 0px;
+  padding: 10px;
+}
+details[open] {
+    border: solid 1.5px #000000;
+/*    background: #e0e0e0;  */
+}
+
+
+
+
 /* Tops
 ------------------------------- */
 #tops {

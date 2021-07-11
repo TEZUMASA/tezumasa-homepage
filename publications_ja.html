@@ -38,44 +38,106 @@
                 <ol>
                 <li><b>Redactable Signature with Compactness from Set-Commitment</b><br>
                 Masayuki Tezuka and Keisuke Tanaka<br>
-                IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences Vol.E104-A,No.09 (September 2021) <br>
-                [<a href=https://search.ieice.org/bin/summary_advpub.php?id=2020DMP0013&category=A&lang=E&abst=>Article</a>]
+                IEICE Trans.Fundamentals Vol.E104-A,No.09 (September 2021) 
+                [<a href=https://search.ieice.org/bin/summary_advpub.php?id=2020DMP0013&category=A&lang=E&abst=>Article</a>] 
+                <a href=>[arXiv]</a><br>
+                <details>
+                    <summary>Abstract</summary>
+                <p> 
+                Redactable signature allows anyone to remove parts of a signed message without invalidating the signature. The need to prove the validity of digital documents issued by governments is increasing. When governments disclose documents, they must remove private information concerning individuals. Redactable signature is useful for such a situation.<br>
+                However, in most redactable signature schemes, to remove parts of the signed message, we need pieces of information for each part we want to remove. If a signed message consists of l elements, the number of elements in an original signature is at least linear in l.<br>
+                As far as we know, in some redactable signature schemes, the number of elements in an original signature is constant, regardless of the number of elements in a message to be signed. However, these constructions have drawbacks in that the use of the random oracle model or generic group model.<br>
+                In this paper, we construct an efficient redactable signature to overcome these drawbacks. Our redactable signature is obtained by combining set-commitment proposed in the recent work by Fuchsbauer et al. (JoC 2019) and digital signatures.
+                </p>
+                </details>
                 </li>
 
                 <li><b>Watermarkable Signature with Computational Function Preserving</b><br>
                 Kyohei Sudo, Keisuke Hara, Masayuki Tezuka, Yusuke Yoshida, and Keisuke Tanaka<br>
-                IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences Vol.E104-A,No.09 (September 2021)<br>
-                [<a href=https://search.ieice.org/bin/summary_advpub.php?id=2020DMP0022&category=A&lang=E&abst=>Article</a>](Full version of [STHYT20@ProvSec])
+                IEICE Trans.Fundamentals Vol.E104-A,No.09 (September 2021)
+                [<a href=https://search.ieice.org/bin/summary_advpub.php?id=2020DMP0022&category=A&lang=E&abst=>Article</a>]<br>
+                (Full version of [STHYT20@ProvSec])
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                
+                </p>
+                </details>
                 </li>
 
                 <li><b>Security Definitions on Time-Lock Puzzles</b><br>
                 Daiki Hiraga, Keisuke Hara, Masayuki Tezuka, Yusuke Yoshida, and Keisuke Tanaka<br>
-                ICISC 2020 (December 2020)<br>
-                [<a href=https://link.springer.com/chapter/10.1007/978-3-030-68890-5_1>Proceeding</a>]</li>
+                ICISC 2020 (December 2020)
+                [<a href=https://link.springer.com/chapter/10.1007/978-3-030-68890-5_1>Proceeding</a>]
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                Time-lock puzzles allow one to encapsulate a message for a pre-determined amount of time. The message is required to be concealed from any algorithm running in parallel time less than the pre-determined amount of time. In the previous works, the security of time-lock puzzles was formalized in an indistinguishability manner. However, it is unclear whether it directly meets the security requirements of time-lock puzzles. In this work, we define semantic security for time-lock puzzles, which captures the security requirements of the time-lock puzzle more directly. We consider three computational restrictions of an adversary and see how the security relationship changes. At first, in the traditional setting, we observe that it is difficult to prove that the semantic security implies the indistinguishability, same as the opposite implication. Secondly, in a slightly relaxed setting, we show that it is possible to prove that the semantic security implies the indistinguishability. By contrast, we observe that it is difficult to prove the opposite implication. Thirdly, in the more relaxed setting, we show that it is possible to prove that semantic security is equivalent to the indistinguishability. This shows that an indistinguishability meets the security requirements of time-lock puzzles in a certain restriction.
+                </p>
+                </details>
+                </li>
 
                 <li><b>Watermarkable Signature with Computational Function Preserving</b><br>
                 Kyohei Sudo, Masayuki Tezuka, Keisuke Hara, Yusuke Yoshida, and Keisuke Tanaka<br>
-                ProvSec 2020 (November-December 2020)<br>
-                [<a href="https://link.springer.com/chapter/10.1007/978-3-030-62576-4_7">Proceeding</a>]</li>
+                ProvSec 2020 (November-December 2020)
+                [<a href="https://link.springer.com/chapter/10.1007/978-3-030-62576-4_7">Proceeding</a>]
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                Software watermarking enables one to embed some information called “mark” into a program while preserving its functionality, and to read it from the program. As a definition of function preserving, Cohen et al. (STOC 2016) proposed statistical function preserving which requires that the input/output behavior of the marked circuit is identical almost everywhere to that of the original unmarked circuit. They showed how to construct watermarkable cryptographic primitives with statistical function preserving, including pseudorandom functions (PRFs) and public-key encryption from indistinguishability obfuscation. Recently, Goyal et al. (CRYPTO 2019) introduced more relaxed definition of function preserving for watermarkable signature. Watermarkable signature embeds a mark into a signing circuit of digital signature. The relaxed function preserving only requires that the marked signing circuit outputs valid signatures. They provide watermarkable signature with the relaxed function preserving only based on (standard) digital signature.<br>
+                In this work, we introduce an intermediate notion of function preserving for watermarkable signature, which is called computational function preserving. Then, we examine the relationship among our computational function preserving, relaxed function preserving by Goyal et al., and statistical function preserving by Cohen et al. Furthermore, we propose a generic construction of watermarkable signature scheme satisfying computational function preserving based on public key encryption and (standard) digital signature.
+                </p>
+                </details>
+                </li>
 
                 <li><b>Improved Security Proof for the Camenisch-Lysyanskaya Signature-Based Synchronized Aggregate Signature Scheme</b><br>
                 Masayuki Tezuka and Keisuke Tanaka<br>
-                ACISP 2020 (November-December 2020)<br> 
+                ACISP 2020 (November-December 2020) 
                 [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-55304-3_12">Proceeding</a>] 
-                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/improved-security-proof-for-the-camenischlysyanskaya-signaturebased-synchronized-aggregate-signature-scheme">Slide</a>]<br></li>
+                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/improved-security-proof-for-the-camenischlysyanskaya-signaturebased-synchronized-aggregate-signature-scheme">Slide</a>]
+                <a href=>[arXiv]</a>
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                The Camenisch-Lysyanskaya signature scheme in CRYPTO 2004 is a useful building block to construct privacy-preserving schemes such as anonymous credentials, group signatures or ring signatures. However, the security of this signature scheme relies on the interactive assumption called the LRSW assumption. Even if the interactive assumptions are proven in the generic group model or bilinear group model, the concerns about these assumptions arise in a cryptographic community. This fact caused a barrier to the use of cryptographic schemes whose security relies on these assumptions.<br>
+                Recently, Pointcheval and Sanders proposed the modified Camenisch-Lysyanskaya signature scheme in CT-RSA 2018. This scheme satisfies the EUF-CMA security under the new q-type assumption called the Modified-q-Strong Diffie-Hellman-2 (q-MSDH-2) assumption. However, the size of a q-type assumptions grows dynamically and this fact leads to inefficiency of schemes.<br>
+                In this work, we revisit the Camenisch-Lysyanskaya signature-based synchronized aggregate signature scheme in FC 2013. This scheme is one of the most efficient synchronized aggregate signature schemes with bilinear groups. However, the security of this synchronized aggregate scheme was proven under the one-time LRSW assumption in the random oracle model. We give the new security proof for this synchronized aggregate scheme under the 1-MSDH-2 (static) assumption in the random oracle model with little loss of efficiency.
+
+
+                </p>
+                </details>
+                </li>
 
                 <li><b>A t-out-of-n Redactable Signature Scheme</b><br>
                 Masayuki Tezuka, Xiangyu Su, and Keisuke Tanaka<br>
-                CANS 2019 (October 2019)<br>
+                CANS 2019 (October 2019)
                 [<a href="https://doi.org/10.1007/978-3-030-31578-8_26">Proceeding</a>]
-                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/a-toutofn-redactable-signature-scheme">Slide</a>]</li>
+                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/a-toutofn-redactable-signature-scheme">Slide</a>]
+                <a href=>[arXiv]</a>
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                A redactable signature scheme allows removing parts of a signed message without invalidating the signature. Currently, the need to prove the validity of digital documents issued by governments and enterprises is increasing. However, when disclosing documents, governments and enterprises must remove privacy information concerning individuals. A redactable signature scheme is useful for such a situation.<br>
+                In this paper, we introduce the new notion of the t-out-of-n redactable signature scheme. This scheme has a signer, n redactors, a combiner, and a verifier. The signer designates n redactors and a combiner in advance and generates a signature of a message M. Each redactor decides parts that he or she wants to remove from the message and generates a piece of redaction information. The combiner collects pieces of redaction information from all redactors, extracts parts of the message that more than t redactors want to remove, and generate a redacted message.<br>
+                We consider the one-time redaction model which allows redacting signatures generated by the signer only once. We formalize the one-time redaction t-out-of-n redactable signature scheme, define security, and give a construction using the pairing based aggregate signature scheme in the random oracle model.
+                </details>
+                </li>
 
                 <li><b>Weakened Random Oracle Models with Target Prefix</b><br>
                 Masayuki Tezuka, Yusuke Yoshida, and Keisuke Tanaka<br>
-                SecICT 2018 (November 2018)<br>
+                SecICT 2018 (November 2018)
                 [<a href="https://doi.org/10.1007/978-3-030-12942-2_26">Proceeding</a>]
-                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/weakened-random-oracle-models-with-target-prefix">Slide</a>]</li>
-
+                [<a href="https://www2.slideshare.net/MASAYUKITEZUKA/weakened-random-oracle-models-with-target-prefix">Slide</a>]
+                <a href=>[arXiv]</a>
+                <details>
+                    <summary>Abstract</summary> 
+                <p>
+                Weakened random oracle models (WROMs) are variants of the random oracle model (ROM). The WROMs have the random oracle and the additional oracle which breaks some property of a hash function. Analyzing the security of cryptographic schemes in WROMs, we can specify the property of a hash function on which the security of cryptographic schemes depends.<br>
+                Liskov (SAC’06) proposed WROMs and later Numayama et al. (PKC’08) formalized them as CT-ROM, SPT-ROM, and FPT-ROM. In each model, there is the additional oracle to break collision resistance, second preimage resistance, preimage resistance respectively. Tan and Wong (ACISP’12) proposed the generalized FPT-ROM (GFPT-ROM) which intended to capture the chosen prefix collision attack suggested by Stevens et al. (EUROCRYPT’07).<br>
+                In this paper, in order to analyze the security of cryptographic schemes more precisely, we formalize GFPT-ROM and propose additional three WROMs which capture the chosen prefix collision attack and its variants. In particular, we focus on signature schemes such as RSA-FDH, its variants, and DSA, in order to understand essential roles of WROMs in their security proofs.
+                </p>
+                </details>
+                </li>
                 </ol>
             </div>
 
